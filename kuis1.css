@@ -1,0 +1,219 @@
+* {
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+    background-color: #F0FFFF;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
+div {
+    display: block;
+}
+
+#landing-page {
+    background-image:url(images/2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    height: 90vh;
+    opacity: 70%;
+}
+
+.class1 {
+
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: rgb(246, 255, 208);
+    transform: scale(.8);
+    font-family: 'Black Ops One', system-ui;
+}
+
+ul.nav {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: teal;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+
+.nav-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav > li {
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+    font-weight: 800;
+    padding: 10px 0 0 0;
+}
+
+.nav >li >a {
+    color: white;
+    display: inline-block;
+    margin:0 auto;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.nav >li >a:hover {
+    color: rgb(238, 255, 0);
+}
+
+
+.perkenalan {
+    font-size: 1, 2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.title-aboutme {
+    padding-top: 100px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.section-introduction {
+    display: inline-block;
+    margin-top: 5em;
+    width: 100%;
+    text-align: center;
+}
+
+.section-education {
+    display: inline-block;
+    margin-top: 5em;
+    width: 50%;
+    text-align: center;
+    padding: 5em;
+}
+
+.section-working {
+    display:inline-block;
+    margin-top: 5em;
+    /* width: 100%; */
+    text-align: center;
+}
+
+/* .p {
+    display: block;
+    margin-block-start: 1;
+    margin-block-end: 1;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+} */
+
+.img-icon {
+    max-width: 12em;
+    margin: 10px;
+}
+
+.title-portofolio {
+    padding-top: 100px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.title-contactme {
+    padding-top:  100px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.inputan {
+    width: 85%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.inputan > label {
+    /* display:flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px; */
+    display: block;
+    font-size: 1.2em;
+}
+
+.inputan > input {
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+.inputan > button {
+    color: white;
+    background-color:teal;
+    margin: 20px;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.inputan > button:hover {
+    cursor: pointer;
+}
+
+.title-moreinfo {
+    padding-top: 100px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#more-info img {
+    max-width: 100px;
+    margin: 30px;
+    width: 100%;
+}
+
+#more-info {
+    text-align: center;
+    width: 100%;
+} 
+
+@media only screen and (max-width:1200px) {
+    ul.nav {
+        /* width: 100%; */
+        font-size: small;
+        padding: 5px;
+    }
+    .more-info img {
+        width: 30px;
+        padding: 10px;
+    }
+    h2, h3, h4, h5 {
+        font-size: medium;
+    }
+    #about-me {
+        text-align: center;
+    }
+}
